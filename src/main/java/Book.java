@@ -8,12 +8,12 @@ public class Book {
     }
 
     public Book(String title, String author, int isbn){
-        this.title = title
+        this.title = title;
         this.author = author;
         this.isbn = isbn;
     }
 
-    public int getTitle() {
+    public String getTitle() {
         return title;
     }
 
@@ -21,7 +21,7 @@ public class Book {
         return author;
     }
 
-    public String getisbn() {
+    public int getisbn() {
         return isbn;
     }
 
@@ -33,7 +33,7 @@ public class Book {
         this.author = author;
     }
 
-    public void setIsbn(String isbn) {
+    public void setIsbn(int isbn) {
         this.isbn = isbn;
     }
 
