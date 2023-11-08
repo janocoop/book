@@ -21,7 +21,7 @@ public class Book {
         return author;
     }
 
-    public int getisbn() {
+    public int getIsbn() {
         return isbn;
     }
 
@@ -36,7 +36,9 @@ public class Book {
     public void setIsbn(int isbn) {
         this.isbn = isbn;
     }
-
+    public String toString() {
+        return "title: " + title + ", author: " + author + ", isbn: " + isbn;
+    }
 
 
 
